@@ -12,9 +12,9 @@ public class Team_04_Q_04 {
     
     int N = sc.nextInt();
     
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= N; i++) {
 		//공백출력
-    	for (int j = n; j > i; j--) {
+    	for (int j = N; j > i; j--) {
 			System.out.print(" ");
 		}
     	
@@ -25,4 +25,5 @@ public class Team_04_Q_04 {
     	System.out.println();
 	}
     sc.close();
+}
 }
