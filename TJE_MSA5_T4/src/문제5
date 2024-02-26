@@ -27,13 +27,13 @@ public class Team_04_Q_05 {
 			case 3: menuName ="처갓집에서 호식이가 만든 치킨";break;
 			default: break;
 			}
-            if (menuNo >= 0 &&  menuNo <= 3) {
+            if (menuNo >= 1 &&  menuNo <= 3) {
 				System.out.println(menuName + "(을/를)주문하였습니다.");
 				count++;
-			}else 
+			}else{
 				System.out.println("(0~3)번 사이의 번호를 입력해주세요");
-		
-	    	} while (menuNo != 0);
+	    	}
+            } while (menuNo != 0);
 		//주문한 메뉴 개수를 출력해주세요
 		System.out.println("총" + count + " 개의 상품이 주문되었습니다.");
 
