@@ -10,7 +10,7 @@ public class Team_04_Q_05 {
 		int menuNo = 0;
 		Scanner sc = new Scanner(System.in);
 
-		do {
+		do {.
 			System.out.println("********치킨 메뉴판********");
 			System.out.println("1.황금올리브 반반 치킨");
 			System.out.println("2.뿌잉클 치킨");
